@@ -1,0 +1,100 @@
+body{
+    margin:0;
+}
+body, html{
+    font-family: Roboto,sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.colorPrimaire{
+    background-color: #9356DC;
+}
+
+.colorSecondaire{
+    background-color: #FF79DA;
+}
+
+.colorTertiaire{
+    background-color: #99E2D0;
+
+}
+
+header{
+    text-align: center;
+}
+.pict{
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+}
+
+.carte{
+    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+    
+}
+
+.entrees h3{
+    padding-left: 20px;
+}
+.entrees div{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.titremenu{
+    padding: 1rem 2rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titremenu h1{
+    font-family: Shrikhand,"cursive";
+}
+
+.prix{
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+}
+
+
+
+.commander{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.bouttoncommand{
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #353535;
+}
